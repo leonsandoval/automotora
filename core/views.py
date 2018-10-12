@@ -104,3 +104,6 @@ def modificar_automovil(request, id):
         return redirect('listado')
 
     return render(request, 'core/modificar_automovil.html', variables)
+
+
+#nuevo comentario
